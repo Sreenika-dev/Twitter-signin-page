@@ -1,0 +1,130 @@
+
+
+/* common rules */
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+/* 
+  style application starts here */
+.container{
+
+    width: 371px;
+    height: 420px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 58px auto ;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   font-size: 12px;
+   padding: 10px;
+   
+}
+
+.twitter-img{
+    margin-top: 10px;
+}
+
+h4{
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.google, .apple, .forgotpassword{
+     
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+
+  
+}
+
+.google-img{
+    margin-right: 2.5px;
+  
+}
+
+.google p, .apple p
+{
+    margin: 5px 0px;
+}
+.apple{
+   
+    display: flex;
+}
+
+
+.container hr 
+{
+    width: 200px;
+    
+}
+.container .rulebreak
+{
+    width: 28px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    bottom: 17px;
+
+}
+
+.container input{
+    width: 200px;
+    padding: 7px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+img{
+    width: 18px;
+}
+
+.apple-img
+{
+    margin-right: 5px;
+}
+
+.next
+{
+    width: 200px;
+   border-radius: 52px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   margin: 14px;
+   padding: 5px;
+   cursor: pointer;
+}
+.forgotpassword{
+    padding: 5px;
+   
+}
+
+.account
+{
+    cursor: pointer;
+    width: 200px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.container .blue{
+    color: rgb(15, 148, 172);
+    text-align: left;
+}
+
